@@ -105,9 +105,36 @@ body {
     max-width: 200px;
 }
 
-.quote {
+.quotemain {
     display: flex;
     background-color: #E5E7EB;
+    padding: 80px;
+    justify-content: center;
+    
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 700px;
+    
+}
+
+.quote {
+    flex-wrap: wrap;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: end;
+    padding: 12px;
+        
 }
 
 .footer {
