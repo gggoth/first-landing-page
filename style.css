@@ -23,6 +23,7 @@ body {
 
 .subheader {
     background-color: #1F2937;
+    flex: 1;
 
 }
 
