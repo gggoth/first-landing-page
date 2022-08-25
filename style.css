@@ -138,6 +138,44 @@ body {
         
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    
+}
+
+.modal {
+    background: #3882F6;
+    width: 1100px;
+    border-radius: 10px;
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.header_modal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header_modal, .modal_text {
+    padding: 0 32px 0 32px;
+} 
+
+.modal_text{
+    margin-top: -12px;
+    font-size: 14px;
+}
+.buttonmodal {
+    border-color: #ffffff;
+    border: 1px solid #ffffff;
+    
+}
 .footer {
     display: flex;
     background-color: #1F2937;
